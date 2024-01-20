@@ -1,0 +1,7 @@
+---
+- name: Copy website files to the server's document root
+  become: true
+  copy:
+    src: "{{ web_root }}"
+    dest: "{{ document_root }}"
+    mode: preserve

@@ -1,0 +1,6 @@
+---
+# vars file for web
+web_root: /etc/ansible/roles/web/vars/Typemaster-Prelaunch-Landing-page
+document_root: /var/www/html
+server_name: "{{ ansible_default_ipv4.address }}"
+path: Typemaster-Prelaunch-Landing-page

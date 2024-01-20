@@ -1,0 +1,9 @@
+---
+# tasks file for web
+- include_tasks: apt.yaml
+- include_tasks: install-ngnix.yaml
+- include_tasks: copy-webfiles.yaml
+- include_tasks: nginx-template.yml
+- include_tasks: enable-site.yml
+- include_tasks: file-permission.yaml
+- include_tasks: service.yaml

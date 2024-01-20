@@ -1,0 +1,3 @@
+---
+# defaults file for web
+app_root: /etc/ansible/roles/web/vars/Typemaster-Prelaunch-Landing-page

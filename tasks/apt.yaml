@@ -1,0 +1,7 @@
+---
+- name: Remove apt lock file
+  file:
+    state: absent
+    path: "/var/lib/dpkg/lock-frontend"
+  become: true
+  tags: apt
